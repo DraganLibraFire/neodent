@@ -1,0 +1,529 @@
+/* ----------------------------------------------------------------- */
+/*                            RESPONSIVE                             */
+/* ----------------------------------------------------------------- */
+
+/* ------------------------------------------------------ */
+/* MAX WIDTH 1200px                                       */
+/* ------------------------------------------------------ */
+@media screen and (max-width: 1200px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  /*-- header --*/
+  header nav.navbar-default .container-fluid #neodent-main-navbar-collapse ul li a {
+    padding: 15px 9px;
+  }
+
+  /*-- casopis --*/
+  .magazine-page-wrapp {
+    .thumb-wrapp { height: 220px; }
+  }
+
+  /*-- home --*/
+  #main-homepage .special-offer-post-image-content-wrapp .special-offer-post-wrapp {
+    width: 90%;
+  }
+
+  /*-- footer --*/
+  footer #bottom-footer .row > .col-md-6 {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+}
+
+/* ------------------------------------------------------ */
+/* MAX WIDTH 991px                                        */
+/* ------------------------------------------------------ */
+@media screen and (max-width: 991px) {
+
+  /*-- general --*/
+  body {
+    h1 {
+      font-size: 25px;
+    }
+    h2 {
+      font-size: 22px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    h4 {
+      font-size: 18px;
+    }
+    h5 {
+      font-size: 16px;
+    }
+    h6 {
+      font-size: 14px;
+    }
+  }
+
+  /*-- header --*/
+  header {
+    .woocoomerce-top-heder-menu ul li a {
+      font-size: 15px;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    nav.navbar-default {
+      margin-top: 40px;
+
+      .container-fluid #neodent-main-navbar-collapse ul li {
+        a {
+          padding: 15px 7px;
+          font-size: 13px;
+        }
+        &.current-menu-item a {
+          font-weight: 600;
+        }
+      }
+    }
+
+    .logo-wrapp-header {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .header-search-contact-info-wrapp {
+      text-align: center;
+      width: auto;
+      margin: 0 auto;
+
+      .header-contact-info {
+        text-align: left;
+      }
+    }
+  }
+
+  /*-- content --*/
+  .site-main article.page {
+    width: 100%;
+    display: inline-block;
+  }
+  .faq-sidebar {
+    width: 100%;
+    display: inline-block;
+    float: none;
+  }
+
+  /*-- home --*/
+  .wp-posts-wrapp {
+    .col-md-6 {
+      margin-bottom: 30px;
+      display: inline-block;
+      width: 100%;
+    }
+  }
+  #main-homepage .special-offer-post-image-content-wrapp {
+    min-height: 10px;
+    overflow: hidden;
+    .special-offer-post-wrapp {
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+    .img-offer-wrapp {
+      img {
+        height: 300px;
+        width: auto;
+      }
+    }
+  }
+  #main-homepage .latest-news-post-content-wrapp-home-page .latest-news-post-description-wrapp {
+    .latest-news-post-date {
+      font-size: 20px;
+      line-height: 1.5em;
+    }
+  }
+
+  /*-- footer --*/
+  footer #top-footer {
+    .footer-widgets.container { padding: 0; }
+
+    .widget-area {
+      width: 25%;
+      float: left;
+    }
+  }
+
+  /*-- proizvodjaci --*/
+  .manufacturers-page-wrapp .col-md-3 {
+    width: 25%;
+    float: left;
+  }
+
+  /*-- vesti --*/
+  .latest-news-post-description-page-wrapp .latest-news-post-date { margin-bottom: 20px; }
+
+  /*-- casopisi --*/
+  .magazine-news-post-img-wrapp {
+    width: 25%; float: left;
+    .thumb-wrapp {
+      height: 160px;
+    }
+  }
+
+  /*-- tabs --*/
+  body .ui-tabs .ui-tabs-nav li a {
+    font-size: 15px;
+  }
+
+  /*-- products --*/
+  body .ui-tabs-panel .list-of-woocommerce-products .woocommerce-list-products-latest { width: 50%; float: left; }
+  .woocommerce-page.columns-3 ul.products li.product, .woocommerce.columns-3 ul.products li.product {
+    margin-right: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 50%;
+    clear: none;
+  }
+  .page-template-tpl-page-sale .woocommerce ul.products li.product, .page-template-tpl-page-new-products .woocommerce ul.products li.product,
+  .single-manifacturers_page .woocommerce ul.products li.product, .page-template-tpl-page-new-products .woocommerce ul.products li.product,
+  .single-dentist_page .woocommerce ul.products li.product, .page-template-tpl-page-new-products .woocommerce ul.products li.product,
+  .single-dentist_page .woocommerce-page ul.products li.product, .page-template-tpl-page-new-products .woocommerce-page ul.products li.product {
+    margin-right: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 50%;
+    clear: none;
+  }
+
+}
+
+/* ------------------------------------------------------ */
+/* MAX WIDTH 768px                                        */
+/* ------------------------------------------------------ */
+@media screen and (max-width: 768px) {
+
+  /*-- header --*/
+  header nav.navbar-default {
+    .navbar-header {
+      text-align: center;
+      .navbar-toggle {
+        margin: 0 auto;
+        float: none;
+        display: inline-block;
+        border-color: #363333;
+        border-radius: 0;
+        color: #333;
+        .transitiontext;
+        padding: 11px 15px;
+
+        .icon-bar {
+          background: #333;
+          .transitiontext;
+        }
+
+        .screen-reader-text {
+          display: inline-block;
+          float: right;
+          padding-left: 31px;
+          .transitiontext;
+        }
+
+        &:hover, &:focus {
+          background: #fff;
+          border-color: @color-primary;
+
+          .icon-bar {
+            background:  @color-primary;
+          }
+          .screen-reader-text {
+            color:  @color-primary;
+          }
+        }
+      }
+    }
+
+    .container-fluid #neodent-main-navbar-collapse {
+      border: none;
+      #menu-glavna-navigacija {
+        margin: 10px 0 0;
+        li {
+          width: 100%;
+          padding: 0 15px;
+          margin: 0;
+          border-top: 1px solid #333;
+
+          a {
+            border: none;
+            font-weight: 700;
+            font-size: 17px;
+          }
+
+          &.current-menu-item a { color: @color-primary; }
+        }
+      }
+    }
+  }
+
+  /*-- home --*/
+  .wp-posts-wrapp {
+    .post-thumbnail-warpp {
+      width: 25%;
+      float: left;
+    }
+    .excerpt-post-wrapp {
+      width: 75%;
+      float: right;
+    }
+  }
+  #main-homepage .wp-editor-content-wrapp-home-page .text-center p {
+    font-size: 20px;
+    line-height: 1.5em;
+    margin-top: 3px;
+  }
+  #main-homepage .latest-news-post-content-wrapp-home-page .latest-news-post-description-wrapp {
+    .latest-news-post-date {
+      &:before {
+        width: 150px;
+      }
+    }
+    .latest-news-post-img-wrapp {
+      margin-bottom: 15px;
+    }
+  }
+  #main-homepage .latest-news-post-content-wrapp-home-page .latest-news-post-description-wrapp .latest-news-post-img-wrapp {
+    text-align: center;
+  }
+
+  /*-- faq --*/
+  .faq-content-wrap {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  /*-- footer --*/
+  footer #top-footer .footer-widgets.container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  /*-- single products --*/
+  .woocommerce #content div.product div.images,
+  .woocommerce div.product div.images,
+  .woocommerce-page #content div.product div.images,
+  .woocommerce-page div.product div.images {
+    float: left;
+  }
+  .woocommerce #content div.product div.summary,
+  .woocommerce div.product div.summary,
+  .woocommerce-page #content div.product div.summary,
+  .woocommerce-page div.product div.summary {
+    float: right;
+  }
+
+}
+
+
+/* ------------------------------------------------------ */
+/* MAX WIDTH 600px                                        */
+/* ------------------------------------------------------ */
+@media screen and (max-width: 600px) {
+
+  /*-- header --*/
+  header .woocoomerce-top-heder-menu {
+    text-align: center;
+    ul {
+      float: none;
+      display: inline-block;
+    }
+  }
+
+  /*-- footer --*/
+  footer #top-footer .widget-area {
+    width: 50%;
+  }
+
+  /*-- tabs --*/
+  body .ui-tabs .ui-tabs-nav li a {
+    padding: 15px 5px;
+    font-size: 15px;
+  }
+
+  /*-- general --*/
+  body .entry-footer a,
+  body .post-button-green {
+    padding: 15px 20px;
+  }
+  .woocommerce #respond input#submit,
+  .woocommerce a.button,
+  .woocommerce button.button,
+  .woocommerce input.button,
+  .woocommerce ul.products li.product .button,
+  .woo-botton {
+    padding: 15px 20px;
+  }
+
+  /*-- header --*/
+  header .header-search-contact-info-wrapp {
+    .header-contact-info {
+      margin: 0 20px 0 0;
+    }
+    .search-header-wrapper form .form-group .form-control { width: 160px; }
+  }
+
+  body .thumb-wrapp { width: 100% }
+
+  /*-- partners --*/
+  .manufacturers-page-wrapp .col-md-3 {
+    width: 33.333333334%;
+  }
+
+  /*-- casopis --*/
+  .magazine-news-post-img-wrapp {
+    width: 33.333333334%;
+  }
+
+  /*-- products --*/
+  body .ui-tabs-panel .list-of-woocommerce-products .woocommerce-list-products-latest { width: 100%; }
+  .woocommerce-page.columns-3 ul.products li.product, .woocommerce.columns-3 ul.products li.product {
+    width: 100%;
+  }
+  .page-template-tpl-page-sale .woocommerce ul.products li.product, .page-template-tpl-page-new-products .woocommerce ul.products li.product,
+  .single-manifacturers_page .woocommerce ul.products li.product, .page-template-tpl-page-new-products .woocommerce ul.products li.product,
+  .single-dentist_page .woocommerce ul.products li.product, .page-template-tpl-page-new-products .woocommerce ul.products li.product,
+  .single-dentist_page .woocommerce-page ul.products li.product, .page-template-tpl-page-new-products .woocommerce-page ul.products li.product {
+    width: 100%;
+  }
+
+  /*-- single products --*/
+  .woocommerce #content div.product div.images,
+  .woocommerce div.product div.images,
+  .woocommerce-page #content div.product div.images,
+  .woocommerce-page div.product div.images {
+    width: 100%;
+  }
+  .woocommerce #content div.product div.summary,
+  .woocommerce div.product div.summary,
+  .woocommerce-page #content div.product div.summary,
+  .woocommerce-page div.product div.summary {
+    width: 100%;
+  }
+  .woocommerce .related ul li.product,
+  .woocommerce .related ul.products li.product,
+  .woocommerce .upsells.products ul li.product,
+  .woocommerce .upsells.products ul.products li.product,
+  .woocommerce-page .related ul li.product,
+  .woocommerce-page .related ul.products li.product,
+  .woocommerce-page .upsells.products ul li.product,
+  .woocommerce-page .upsells.products ul.products li.product {
+    width: 100%;
+  }
+  .woocommerce ul.products li.product,
+  .woocommerce-page ul.products li.product {
+    width: 100%;
+  }
+
+}
+
+
+/* ------------------------------------------------------ */
+/* MAX WIDTH 530px                                        */
+/* ------------------------------------------------------ */
+@media screen and (max-width: 530px) {
+
+  /*-- producst category --*/
+  .woocommerce .woocommerce-ordering,
+  .woocommerce .woocommerce-result-count {
+    width: 100%;
+  }
+
+  .woocommerce form.woocommerce-ordering {
+    margin-bottom: 30px;
+
+    select { width: 100%; }
+  }
+
+}
+
+
+/* ------------------------------------------------------ */
+/* MAX WIDTH 490px                                        */
+/* ------------------------------------------------------ */
+@media screen and (max-width: 490px) {
+
+  /*-- partners --*/
+  .manufacturers-page-wrapp .col-md-3 {
+    width: 50%;
+  }
+
+  /*-- casopis --*/
+  .magazine-news-post-img-wrapp {
+    width: 50%;
+  }
+
+}
+
+
+/* ------------------------------------------------------ */
+/* MAX WIDTH 470px                                        */
+/* ------------------------------------------------------ */
+@media screen and (max-width: 470px) {
+
+  /*-- home --*/
+  .wp-posts-wrapp {
+    .post-thumbnail-warpp { width: 100%; padding-left: 0; padding-right: 0; }
+    .excerpt-post-wrapp { width: 100%; margin-top: 10px; padding-left: 0; padding-right: 0; }
+  }
+  #main-homepage .special-offer-post-image-content-wrapp .img-offer-wrapp img { height: 350px; }
+
+  /*-- tab --*/
+  body .ui-tabs .ui-tabs-nav li {
+    &.ui-tabs-active a {
+      font-weight: 500;
+    }
+  }
+
+  /*-- footer --*/
+  footer {
+    #top-footer .widget-area {
+      width: 100%;
+    }
+    #bottom-footer .widget-area-bottom .widget#text-8 {
+      width: 100%;
+      top: 0;
+      margin-bottom: 5px;
+    }
+    #bottom-footer .widget-area-bottom .widget { margin: 0 5px; }
+  }
+
+  /*-- partners --*/
+  .manufacturers-page-wrapp .col-md-3 {
+    width: 100%;
+    min-height: 10px;
+  }
+
+  /*-- casopis --*/
+  .magazine-news-post-img-wrapp {
+    width: 100%;
+  }
+
+  /*-- header --*/
+  header .header-search-contact-info-wrapp {
+    .search-header-wrapper form .form-group .form-control { width: 100px; }
+    .header-contact-info {
+      margin-right: 10px;
+      img { display: none; }
+      .contact-headre-numbers-wrapp {
+        a {
+          font-size: 13px;
+          line-height: 22px;
+        }
+      }
+    }
+  }
+
+  /*-- tab --*/
+  body .ui-tabs .ui-tabs-nav li a {
+    font-size: 13px;
+  }
+
+}

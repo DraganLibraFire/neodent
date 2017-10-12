@@ -1,0 +1,296 @@
+/* ------------------------------------------------------ */
+/* NEWS                                                   */
+/* ------------------------------------------------------ */
+.latest-news-post-description-page-wrapp {
+    margin: 0 0 30px;
+    display: inline-block;
+    width: 100%;
+    
+    .latest-news-post-date {
+        position: relative;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 600;
+
+        &:before {
+            content: '';
+            position: absolute;
+            left: 15px;
+            border-top: 2px solid @color-primary;
+            top: -22px;
+            width: 95%;
+        }
+    }
+    
+    .latest-news-post-img-wrapp {
+        text-align: center;
+        margin: 10px 0 30px;
+    }
+}
+
+/* ------------------------------------------------------ */
+/* MAGAZINE                                               */
+/* ------------------------------------------------------ */
+.magazine-news-post-img-wrapp {
+    text-align: center;
+    
+    hr {
+        width: 60%;
+    }
+}
+
+.magazine-news-post-description-page-wrapp {
+  .title-post-border-right {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}
+
+/* ------------------------------------------------------ */
+/* CONTACT                                                */
+/* ------------------------------------------------------ */
+.page-template-tpl-page-contact {
+    
+    .site-main > .container {
+        max-width: 800px;
+    
+        > .row { margin-bottom: 45px; }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            li {
+                position: relative;
+                padding: 0 0 0 25px;
+                margin: 0 0 15px;
+
+                img {
+                    position: absolute;
+                    left: 0;
+                    top: 1px;
+                }
+
+                p { 
+                    margin: 5px 0 0; 
+
+                    &:first-child { margin: 0; }
+                }
+            }
+        }
+
+        .contact-info-description {
+            position: relative;
+
+            img {
+                position: absolute;
+                left: 15px;
+                top: 2px;
+            }
+
+            p {
+                margin: 0;
+                padding: 0 0 0 40px;
+            }
+        }
+    } 
+
+    .contact-maps-wrapp { 
+        margin-bottom: 45px;
+        .google-map-placeholder { border: none; }
+    }
+    
+    .contact-form-wrapp {
+        h3 {
+            position: relative;
+            font-size: 20px;
+            margin: 0 0 20px;
+            border-bottom: 2px solid #bfbfbf;
+            padding: 0 0 5px;
+            
+            &:after {
+                content: '';
+                border-top: 2px solid #2da6a3;
+                position: absolute;
+                width: 16%;
+                height: 2px;
+                left: 0;
+                bottom: -2px;
+            }
+        }
+        
+        form {
+            
+            p {
+                text-align: center;
+                &.col-md-6,
+                &.col-md-12 { text-align: left; text-transform: uppercase; }
+            }
+            
+            .wpcf7-form-control-wrap {
+                position: relative;
+                display: block;
+                margin-top: 5px;
+                margin-bottom: 15px;
+                  
+                &:after {
+                    content: '';
+                    left: 0;
+                    top: 0;
+                    width: 30px;
+                    background: @color-black;
+                    height: 1px;
+                    position: absolute;
+                }
+                
+                input {
+                    display: block;
+                    width: 100%;
+                    height: 43px;
+                    border: none;
+                    border-bottom: 1px solid  @color-black;
+                    border-left: 1px solid  @color-black;
+                    padding: 0 15px;
+                    text-transform: none;
+
+                    &:hover, &:focus {
+                        outline: 0;
+                    }
+                }
+                
+                textarea {
+                    display: block;
+                    width: 100%;
+                    height: 120px;
+                    border: none;
+                    border-bottom: 1px solid  @color-black;
+                    border-left: 1px solid  @color-black;
+                    padding: 15px;
+                    resize: none;
+                    text-transform: none;
+
+                    &:hover, &:focus {
+                        outline: 0;
+                    }
+                }
+            }
+            
+            .wpcf7-submit {
+                color: #fff;
+                font-weight: 500;
+                text-transform: uppercase;
+                background: @color-primary;
+                border: 1px solid @color-primary;
+                padding: 15px 40px;
+                font-weight: 700;
+                font-size: 15px;
+                display: inline-block;
+                .transitiontext;
+                margin-top: 15px;
+
+                &:hover, &:focus {
+                    background: transparent;
+                    border: 1px solid @color-black;
+                    color: @color-black!important;
+                }
+            }
+        }
+    }
+}
+
+/* ------------------------------------------------------ */
+/* PARTNERS                                               */
+/* ------------------------------------------------------ */
+.manufacturers-page-wrapp {
+    .col-md-3 {
+        margin-bottom: 30px;
+        text-align: center;
+        min-height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        a {
+            -webkit-flex: 1;
+            flex: 1;
+            
+            img {
+                max-height: 100%;
+            }
+        }
+    }
+}
+
+/* ------------------------------------------------------ */
+/* 404 PAGE                                               */
+/* ------------------------------------------------------ */
+.not-found {
+    text-align: center;
+    
+    .page-header {
+        h1 { margin: 20px; }
+        margin-bottom: 40px;
+    }
+    
+    .page-content {
+        
+        form {
+            margin-top: 10px;
+            display: inline-block;
+            width: auto;
+            border: 1px solid @color-black;
+            padding: 0 0 0 15px;
+            
+            .screen-reader-text { display: none; }
+            
+            label {
+                margin: 0;
+            }
+            .search-field {
+                border: none;
+                box-shadow: none;
+                width: 240px;
+                display: inline-block;
+                outline: 0;
+                line-height: 2em;
+                height: 40px;
+            }
+
+            .search-submit {
+                display: inline-block;
+                width: 41px;
+                height: 41px;
+                border: none;
+                border-radius: 0;
+                padding: 0;
+                .transitiontext;
+                background: url('img/search-header.png') no-repeat center center;     
+                text-indent: -9999px;                   
+
+                &:hover, &:focus {
+                    background-color: @color-primary;
+                }
+            }    
+        }
+    }
+}
+
+/* ------------------------------------------------------ */
+/* NEW PRODUCTS                                           */
+/* ------------------------------------------------------ */
+.page-template-tpl-page-sale,
+.single-manifacturers_page,
+.single-dentist_page,
+.page-template-tpl-page-new-products {
+  .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    width: 33.33333334%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0;
+
+    .thumb-wrapp {
+      width: 262px;
+    }
+  }
+}

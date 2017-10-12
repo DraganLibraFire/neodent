@@ -1,0 +1,190 @@
+/* ------------------------------------------------------ */
+/* HEADER                                                 */
+/* ------------------------------------------------------ */
+header {
+    
+    /*-- top black menu --*/
+    .woocoomerce-top-heder-menu {
+        background: #363131;
+        display: inline-block;
+        width: 100%;
+        padding: 25px 0;
+        margin: 0 0 20px;
+
+        ul {
+            float: right;
+            width: auto;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+
+            li {
+                display: inline-block;
+                border-left: 1px solid #fff;
+                
+                &:first-child {
+                    border: none;
+                }
+                
+                a {
+                    padding: 2px 17px 0;
+                    text-transform: uppercase;
+                    color: #fff;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+    
+    /*-- logo --*/
+    .logo-wrapp-header {
+        padding: 0;
+    }
+    
+    /*-- tel and search --*/
+    .header-search-contact-info-wrapp {
+        display: inline-block;
+        
+        .header-contact-info {
+            float: right;
+            margin: 0 50px 0 0;
+            
+            img {
+                float: left;
+                margin: 13px 15px 0 0;
+            }
+            
+            .contact-headre-numbers-wrapp {
+                display: inline-block;
+                
+                a {
+                    font-weight: 800;
+                    font-size: 17px;
+                    margin: 2px 0;
+                    display: inline-block;
+                    line-height: 23px;
+                }
+            }
+        }
+        
+        .search-header-wrapper {
+            float: right;
+            
+            form {
+                .form-group {
+                    border: 1px solid @color-black;
+                    margin: 5px 0 0;
+                    
+                    .form-control {
+                        border: none;
+                        box-shadow: none;
+                        width: 240px;
+                        display: inline-block;
+                    }
+                    
+                    button {
+                        display: inline-block;
+                        width: 41px;
+                        height: 41px;
+                        border: none;
+                        border-radius: 0;
+                        padding: 0;
+                        .transitiontext;
+                        background: url('img/search-header.png') no-repeat center center;     
+                        text-indent: -9999px;                   
+                        
+                        &:hover, &:focus {
+                            background-color: @color-primary;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    /*-- menu --*/
+    nav.navbar-default {
+        background: none;
+        border: none;
+        border-radius: 0;
+        margin: 70px 0 40px;
+        display: inline-block;
+        width: 100%;
+        
+        .container-fluid {
+            padding: 0;
+            
+            #neodent-main-navbar-collapse {
+                padding: 0;
+                
+                ul {
+                    float: left;
+                    width: 100%;
+                    border-bottom: 1px solid @color-black;
+                    
+                    li {
+                        float: left;
+                        margin: 0 -1px -1px 0;
+                        
+                        a {
+                            border-left: 1px solid transparent;
+                            border-right: 1px solid transparent;
+                            border-top: 2px solid transparent;                            
+                            text-transform: uppercase;
+                            padding: 15px 20px;
+                            font-weight: 600;
+                            color: @color-black;
+                            
+                            &:hover, &:focus {
+                                color: @color-primary;
+                            }
+                        }
+                        
+                        &.current-menu-item {
+                            a {
+                                border-left: 1px solid @color-black;
+                                border-right: 1px solid @color-black;
+                                border-top: 2px solid @color-primary;
+                                background: #fff;
+                                font-weight: 800;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    /*-- sub menu --*/
+    nav.sub-menu {
+        display: inline-block;
+        width: 100%;
+        margin: 0 0 40px;
+        
+        ul.menu {
+            margin: 0;
+            padding: 0;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            list-style: none;
+            
+            li {
+                display: inline-block;
+                width: auto;
+                
+                a {
+                    padding: 2px 15px 0;
+                    font-weight: 600;
+                    border-left: 1px solid @color-black;                        
+                    text-transform: uppercase;
+                    display: inline-block;
+                }
+                    
+                &:first-child a {
+                    border: none;
+                }
+            }            
+        }
+    }
+}

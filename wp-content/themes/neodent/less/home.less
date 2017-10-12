@@ -1,0 +1,126 @@
+/* ------------------------------------------------------ */
+/* HOME                                                   */
+/* ------------------------------------------------------ */
+
+/*-- slider --*/
+.slider-wrapper {
+    margin: 0 0 45px;
+}
+
+#main-homepage {
+    
+    .wp-posts-wrapp {
+        margin: 0 0 60px;
+        display: inline-block;
+        width: 100%;
+        
+        h2 {
+            text-transform: uppercase;
+        }
+        
+        .excerpt-post-wrapp {            
+            p { margin: 0 0 25px; }
+        }
+    }
+    
+    /*-- spec ponuda --*/
+    .special-offer-post-image-content-wrapp {
+        position: relative;
+        margin: 0 0 60px;
+        min-height: 300px;
+        
+        .special-offer-post-wrapp {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            background: rgba(255, 255, 255, .74);
+            padding: 20px;
+            
+            p,
+            h2 {
+                margin: 0 0 20px;
+            }
+        }
+    }
+    
+    /*-- isporuka --*/
+    .wp-editor-content-wrapp-home-page {
+        color: #fff;
+        background: @color-primary;
+        border-bottom: 10px solid #25615f;
+        margin: 0 0 60px;
+        text-align: center;
+        padding: 50px 0;
+        
+        .text-center {
+            display: inline-block;
+            width: auto;
+            
+            p { 
+                width: auto;
+                float: left;
+                margin: 0;
+                font-size: 27px;
+                line-height: 1.2em;
+                font-family: 'Open Sans', sans-serif;
+                text-align: left;
+                
+                img { margin-right: 20px; }
+            }
+        }
+    }
+    
+    /*-- latest posts --*/
+    .latest-news-post-content-wrapp-home-page {
+        .latest-news-post-description-wrapp {
+            display: inline-block;
+            width: 100%;
+            margin: 0 0 30px;
+            position: relative;
+            
+            .latest-news-post-date {
+                position: relative;
+                text-align: center;
+                font-size: 22px;
+                font-weight: 600;
+                
+                &:before {
+                    content: '';
+                    position: absolute;
+                    left: 15px;
+                    border-top: 2px solid @color-primary;
+                    top: -22px;
+                    width: 95%;
+                }
+            }
+            
+            h2 {
+                text-transform: uppercase;
+            }
+            
+                                
+            img {
+                .transitiontext;
+                position: relative;
+                -webkit-backface-visibility: hidden;
+                -webkit-transform: translateZ(0) scale(1.0, 1.0);
+            }
+
+            a {
+                &:hover img, &:focus img {
+                    opacity: 0.7;
+                }
+            }
+        }
+
+        .read-more {
+            text-transform: uppercase;
+            font-size: 20px;
+            font-weight: 600;
+            float: right;
+            color: @color-primary;
+            
+            &:hover, &:focus { color: @color-black!important; }
+        }
+    }
+}

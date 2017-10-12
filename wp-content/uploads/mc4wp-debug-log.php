@@ -1,0 +1,11 @@
+<?php exit; ?>
+[2017-08-08 19:17:08] WARNING: Form 7008 > drag**@li*******.com is already subscribed to the selected list(s)
+[2017-08-08 19:18:41] WARNING: Form 7008 > drag**@li*******.com is already subscribed to the selected list(s)
+[2017-08-08 19:19:02] WARNING: Form 7008 > drag**@li*******.com is already subscribed to the selected list(s)
+[2017-08-08 19:19:24] WARNING: Form 7008 > drag**@li*******.com is already subscribed to the selected list(s)
+[2017-08-08 19:20:04] WARNING: Form 7008 > drag**@li*******.com is already subscribed to the selected list(s)
+[2017-08-08 19:20:28] WARNING: Form 7008 > drag**@li*******.com is already subscribed to the selected list(s)
+[2017-08-08 19:21:31] WARNING: Form 7008 > drag**@li*******.com is already subscribed to the selected list(s)
+[2017-08-08 19:21:56] WARNING: Form 7008 > drag**@li*******.com is already subscribed to the selected list(s)
+[2017-08-08 19:22:03] WARNING: Form 7008 > drag**@li*******.com is already subscribed to the selected list(s)
+[2017-08-14 11:48:26] WARNING: Form 7008 > anto*********@gm***.com is already subscribed to the selected list(s)
