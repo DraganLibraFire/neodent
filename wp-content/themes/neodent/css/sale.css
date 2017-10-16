@@ -20,6 +20,9 @@ div .woocommerce button.button.alt {
     -o-transition: all 500ms !important;
     transition: all 500ms !important;
 }
+.post-type-archive-edukacije .latest-news-post-date .entry-date {
+    display: none;
+}
 div .woocommerce input.button.alt {
     background-color: #2da6a3;
     color: #ffffff !important;
